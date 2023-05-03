@@ -1,0 +1,10 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-box{
+    display: flex;
+    align-items: center;
+}

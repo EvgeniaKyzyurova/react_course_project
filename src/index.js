@@ -3,12 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+import allReducers from './store/reducers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const store = createStore(
+	allReducers,
+	composeWithDevTools(applyMiddleware(thunk))
+);
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<BrowserRouter>
+		<Provider store={store}>
+			<App />
+		</Provider>
+	</BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

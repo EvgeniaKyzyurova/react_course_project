@@ -1,0 +1,31 @@
+.container-card{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 60%;
+}
+.title{
+    font-size: 30px;
+}
+.info{
+    width: 40%;
+    padding-left: 20%;
+}
+.authors{
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+.btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

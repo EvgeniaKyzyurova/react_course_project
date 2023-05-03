@@ -1,0 +1,7 @@
+.container-searchBar{
+    display: flex;
+    align-items: center;
+}
+.container-searchBar Input{
+    margin:0;
+}

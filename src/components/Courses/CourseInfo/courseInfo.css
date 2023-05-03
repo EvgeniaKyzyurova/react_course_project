@@ -1,0 +1,30 @@
+.course-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.course-title{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.course-description{
+    width: 60%;
+}
+.course-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+    padding-left: 20%;
+}
+.course-author{
+    margin-bottom: 10px;
+}

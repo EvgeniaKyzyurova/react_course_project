@@ -1,0 +1,44 @@
+.container-create-course{
+    padding: 20px;
+}
+.first-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 2px solid gold;
+    margin-top: 10px;
+}
+.form{
+    border: 2px solid blueviolet;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.add-author-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.authors-block{
+    width: 50%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

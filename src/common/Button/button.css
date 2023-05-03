@@ -1,0 +1,13 @@
+button{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid rgb(142, 89, 195);
+    background-color: white;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(142, 89, 195);
+    color: white;
+}
